@@ -98,7 +98,7 @@ export const Projects = () => {
                         <p className="text-gray-400 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, eos.</p>
 
                         <div>
-                            {["React", "Node.js", "Appwrite", "TailwindCss"].map((tech, key) => (
+                            {["React", "Node.js", "Appwrite"].map((tech, key) => (
                                 <span  key={key} className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 
                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                                     {tech}
